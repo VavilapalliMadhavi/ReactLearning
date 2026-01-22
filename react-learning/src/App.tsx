@@ -1,6 +1,7 @@
 import Profile from "./components/profile";
 import Event from "./components/Event";
 import StudentCard from "./components/StudentCard";
+import Nested from "./components/Nested";
 
 
 function App(){
@@ -13,6 +14,7 @@ function App(){
       <Event/>
       <StudentCard name="Madhavi" course="ECE"/>
         <StudentCard name="Madhavi" course="ECE"/>
+        <Nested />
     </div>
 
   )
